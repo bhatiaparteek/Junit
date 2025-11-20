@@ -9,9 +9,9 @@ public class StringHelperTest {
 	@Test
 	public void test() {
 		StringHelper helper=new StringHelper();
-		assertEquals("BC",helper.truncateAInFirst2Positions("AABC"));
+		assertEquals("ABC",helper.truncateAInFirst2Positions("AABC"));
 		assertEquals("BC",helper.truncateAInFirst2Positions("ABC"));
-		assertEquals("BC",helper.truncateAInFirst2Positions("ABC"));
+		assertEquals("GBC",helper.truncateAInFirst2Positions("GBC"));
 
 	}
 

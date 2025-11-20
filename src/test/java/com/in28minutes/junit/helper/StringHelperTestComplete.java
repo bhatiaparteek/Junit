@@ -31,7 +31,7 @@ public class StringHelperTestComplete {
 	@Test
 	public void testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario() {
 		assertFalse( 
-				helper.areFirstAndLastTwoCharactersTheSame("ABCD"));
+				helper.areFirstAndLastTwoCharactersTheSame("BCD"));
 	}
 
 	@Test
